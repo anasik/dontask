@@ -1,0 +1,84 @@
+
+
+#royal_preloader.text .loader{
+	color:#cfa144;
+}
+.cd-vertical-nav a,
+.button--moema:hover,
+#ajax-form button:hover,
+.list-social-footer li:hover,
+.team-box .list-social-team li:hover,
+#cd-zoom-in, #cd-zoom-out,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+	background-color:#cfa144;
+}
+.list-social-nav li:hover.icon-soc-nav a,
+.cd-primary-nav .cd-label a.curent-nav-color,
+.list-social li:hover.icon-soc a,
+.contact-block .text p span,
+.team-box p,
+.about-box .icon,
+.services-box .icon,
+a.blog-link,
+#filter li a:hover,
+#filter li .current,
+.blog-box-1 .date p em,
+.link-recents a:hover,
+.project-details p a:hover{
+	color:#cfa144;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:1px solid #cfa144;
+}
+.tags-block a:hover,
+.tags-block a.autor-link:hover,
+.post-sidebar input:active,
+.post-sidebar input:focus,
+.link-tag a:hover,
+.block:hover{
+	background: #cfa144;
+}
+.post-sidebar input:-ms-input-placeholder  {
+	color:#cfa144;
+}
+.post-sidebar input::-moz-placeholder  {
+	color:#cfa144;
+}
+.post-sidebar input:-moz-placeholder  {
+	color:#cfa144;
+}
+.post-sidebar input::-webkit-input-placeholder  {
+	color:#cfa144;
+}
+::selection {
+	background: #cfa144;
+	}
+::-moz-selection {
+	background: #cfa144;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
