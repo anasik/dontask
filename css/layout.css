@@ -510,6 +510,13 @@ Main components
 }
 
 .cd-main-content {
+	position: absolute;
+	visibility: hidden;
+	display: none;
+}
+.cd-main-content-current {
+	visibility: visible;
+	display: block;
 }
 .cd-main-content p {
 }

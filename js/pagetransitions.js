@@ -5,6 +5,7 @@ var PageTransitions = (function() {
 		animcursor = 1,
 		pagesCount = $pages.length,
 		current = 0,
+		khurrent = document.getElementById("index-page");
 		nextCurrent = 0,
 		isAnimating = false,
 		endCurrPage = false,
@@ -33,16 +34,15 @@ var PageTransitions = (function() {
         };
         $iterate.on( 'click', function(e) {
 			e.preventDefault();
-setTimeout(function(){
-	$("html").load(e.target.href);
-	scripts = document.getElementsByTagName("script");
-//	loader = new ScriptLoader();
-	for (var i = 0; i < scripts.length; i++) {
-//	    loader.loadTags(scripts[i]);
-	document.getElementsByTagName("body")[0].removeChild(scripts[i]);
-	document.getElementsByTagName("body")[0].appendChild(scripts[i]);
-	}
-	},1500);			
+			var id = e.target.href.substr(e.target.href.lastIndexOf("#")+1);
+			var elem = document.getElementById(id);
+			if(elem){
+				khurrent.classList.remove("cd-main-content-current");
+				khurrent.classList.add("cd-main-content");
+				elem.classList.add("cd-main-content-current");
+				elem.classList.remove("cd-main-content");
+				khurrent=elem;
+			}			
         } );
 	}
 	function nextPage(options ) {
